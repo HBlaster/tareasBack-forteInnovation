@@ -39,7 +39,7 @@ AdminTareasAPI/
 
 ### 1. Clona el repositorio
 
-git clone https://github.com/tuusuario/AdminTareasAPI.git
+git clone https://github.com/HBlaster/AdminTareasAPI.git
 cd AdminTareasAPI
 2. Verifica la cadena de conexión
 
