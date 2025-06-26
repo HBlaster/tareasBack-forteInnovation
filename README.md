@@ -39,7 +39,7 @@ AdminTareasAPI/
 
 ### 1. Clona el repositorio
 
-git clone https://github.com/HBlaster/AdminTareasAPI.git
+git clone https://github.com/HBlaster/tareasBack-forteInnovation.git
 cd AdminTareasAPI
 2. Verifica la cadena de conexión
 
