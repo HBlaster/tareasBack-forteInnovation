@@ -89,7 +89,8 @@ CORS configurado para permitir llamadas desde Angular (http://localhost:4200)
 
 Swagger activo por defecto en entorno de desarrollo
 
-
+```
 🧑‍💻 Autor
 Desarrollado por Alfredo Cano
 Contacto: alfredo10396.c@gmail.com
+```
