@@ -16,26 +16,22 @@ Este backend forma parte de una solución full stack junto a un frontend Angular
 - ✅ Swagger para documentación y pruebas
 
 ---
+## 📁 Estructura del proyecto
 
-## 🗂️ Estructura del proyecto
-
+```plaintext
 AdminTareasAPI/
-│
 ├── Controllers/
-│ └── TareasController.cs # Endpoints REST
-│
+│   └── TareasController.cs       # Endpoints REST
 ├── Models/
-│ └── Tarea.cs # Modelo de datos
-│
+│   └── Tarea.cs                  # Modelo de datos
 ├── Data/
-│ └── TaskDbContext.cs # DbContext EF Core
-│
+│   └── TaskDbContext.cs          # DbContext EF Core
 ├── Repositories/
-│ ├── ITareaRepository.cs # Interfaz del repositorio
-│ └── TareaRepository.cs # Implementación
-│
-├── appsettings.json # Configuración + cadena de conexión
-└── Program.cs # Configuración del pipeline
+│   ├── ITareaRepository.cs       # Interfaz del repositorio
+│   └── TareaRepository.cs        # Implementación
+├── appsettings.json              # Configuración + cadena de conexión
+└── Program.cs                    # Configuración del pipeline
+```
 
 ---
 
@@ -43,7 +39,6 @@ AdminTareasAPI/
 
 ### 1. Clona el repositorio
 
-```bash
 git clone https://github.com/tuusuario/AdminTareasAPI.git
 cd AdminTareasAPI
 2. Verifica la cadena de conexión
@@ -68,12 +63,15 @@ API disponible en:
 🧪 Endpoints principales
 Todos documentados con Swagger en: http://localhost:<port>/swagger
 
-Método	Ruta	Descripción
-GET	/api/tareas	Obtener todas las tareas
-GET	/api/tareas/{id}	Obtener tarea por ID
-POST	/api/tareas	Crear nueva tarea
-PUT	/api/tareas/{id}	Editar tarea existente
-DELETE	/api/tareas/{id}	Eliminar tarea
+```
+| Método | Ruta             | Descripción              |
+| ------ | ---------------- | ------------------------ |
+| GET    | /api/tareas      | Obtener todas las tareas |
+| GET    | /api/tareas/{id} | Obtener tarea por ID     |
+| POST   | /api/tareas      | Crear nueva tarea        |
+| PUT    | /api/tareas/{id} | Editar tarea existente   |
+| DELETE | /api/tareas/{id} | Eliminar tarea           |
+```
 
 ✅ Validaciones aplicadas
 Titulo y Descripcion son obligatorios
